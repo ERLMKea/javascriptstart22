@@ -6,9 +6,17 @@
 //der er yderligere 2 typer
 // object function
 
+function showTypes(lst) {
+    console.log("STARTER Udskrivning")
+    for (const obj of lst) {
+        console.log(obj + " er af typen=" + typeof obj)
+    }
+}
+
 function out(any) {
     console.log(any)
 }
+
 function outtype(any) {
     console.log("type= " + typeof any)
     console.log(any)
